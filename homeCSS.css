@@ -51,9 +51,9 @@ img{
     font-size: 20px;
 }
 */
-.img{
-    width: 50%;
-    height: 50%;
+#dog-pic{
+    width: 500px; 
+    height: 333px;;
 }
 
 table{
