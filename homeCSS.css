@@ -59,6 +59,7 @@ img{
 }
 
 table{
+    padding: 50px;
     table-layout: fixed;
     width: 90%;
 }
