@@ -62,18 +62,18 @@
 body{
     font-family: monospace;
     margin-top: 50px;
-    background-color: azure;
+    background-color: #c95757;
 }
 
 footer{
     font-family: monospace;
-    background-color: azure;
+    background-color: #c95757;
     margin: auto;
     text-align: center;
 }
 
 #about-us{
-    background-color: azure;
+    background-color: #c95757;
     margin: 0;
     color: black;
     text-align: left;
@@ -84,13 +84,13 @@ h2{
 }
 
 #states{
-    background-color:azure;
+    background-color:#c95757;
     margin: 0;
     text-align: center;
 }
 
 #resources{
-    background-color: azure;
+    background-color: #c95757;
     margin: 0;
     text-align: center;
 }
