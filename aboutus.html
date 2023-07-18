@@ -2,43 +2,26 @@
 <html>
     <head>
         <title>About Bock Associates</title>
-        <style>
-            .navigation,#navbar{
-                 list-style-type:none;
-                 margin: 5px;
-                 padding: 5px;
-                 display: flex;
-            } 
-            li{
-                
-                 margin: 2px;
-                 padding: 2px;
-                 
-            }
-            main{
-                margin: 2px;
-                padding: 2px;
-            }
-         </style>
     </head>
     <body>
         <header>
-            <nav>
-                <ul class="navigation">
-                    <li id="navbar"><a href="home.html">Home</a></li>
-                    <li id="navbar"><a href="aboutus.html">About Us</a></li>
-                    <li id="navbar">Locations
-                        <ul class="subnavigation">
-                            <li id="navbar"><a href="alabama.html">Alabama</a></li>
-                            <li id="navbar"><a href="arkansas.html">Arkansas</a></li>
-                            <li id="navbar"><a href="missouri.html">Missouri</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+            <div class="navbar">
+                <a href="home.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Locations
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="alabama.html">Alabama</a>
+                        <a href="arkansas.html">Arkansas</a>
+                        <a href="missouri.html">Missouri</a>
+                    </div>
+                </div>
+            </div>
         </header>
         <main>
-            <h2>Company History</h2>
+            <h1>Company History</h1>
             <p>
                 A division of Emeritus Corporation, Bock Associates is an experienced national firm that
                 specializes in PASRR assessment services tailored to the needs of state human service
@@ -82,7 +65,7 @@
                 contract from the State of Louisiana. Since that time, we have provided PASRR consultation
                 to twelve states in seven CMS regions. 
             </p>
-            <h2>PASRR History</h2>
+            <h1>PASRR History</h1>
             <p>
                 In 1982, the U.S. Department of Health and Human Sciences proposed significant changes in 
                 the nursing facility survey and certification program. The proposal was very controversial,
