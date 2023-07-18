@@ -35,12 +35,14 @@ overflow: hidden;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* Slideshow container */
 .slideshow-container{
-    max-width: 500px;
+    max-width: 1000px;
     position:relative;
     margin:auto;
 }
@@ -76,6 +78,10 @@ overflow: hidden;
 /* On hover, add a black bachground color with a little bit see-through */
 .prev:hover, .next:hover{
     background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover{
+    background-color: #717171;
 }
 
 .fade{
