@@ -53,7 +53,8 @@ img{
 */
 #dog-pic{
     width: 500px; 
-    height: 333px;;
+    height: 333px;
+    align-items: center;
 }
 
 table{
