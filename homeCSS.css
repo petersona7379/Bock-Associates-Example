@@ -11,6 +11,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0;
 }
   
 .dropdown {
@@ -149,8 +150,4 @@ table{
 
 td{
     width: 45%;
-}
-
-header{
-    margin: 0;
 }
