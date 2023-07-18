@@ -29,7 +29,7 @@
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover, .dropbtn{
+.navbar a:hover, .dropdown:hover, .dropbtn:hover{
     background-color: white;
 }
 
@@ -73,7 +73,7 @@ footer{
 }
 
 #about-us{
-    background-color: #a24857;
+    background-color: #c95757;
     margin: 0;
     color: black;
     text-align: left;
