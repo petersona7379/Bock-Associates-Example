@@ -33,24 +33,8 @@ overflow: hidden;
     flex-grow: 2;
     border: solid 1px black;
 }
-/*
-.container{
-    display: grid;
-    align-items: right;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
-}
 
-img{
-    max-height: 100%;
-    max-width: 100%;
-    align-items: right;
-}
-
-.company-text{
-    font-size: 20px;
-}
-*/
+/* Picture */
 #dog-pic{
     width: 500px; 
     height: 333px;
@@ -58,6 +42,7 @@ img{
     padding-left: 100px;
 }
 
+/* Table of about us and picture */
 table{
     padding: 50px;
     table-layout: fixed;
@@ -65,7 +50,7 @@ table{
 }
 
 td{
-    width: 40%;
+    width: 45%;
 }
 
 h2{
