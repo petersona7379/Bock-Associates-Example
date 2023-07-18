@@ -55,6 +55,7 @@ img{
     width: 500px; 
     height: 333px;
     align-items: center;
+    display: flex;
 }
 
 table{
