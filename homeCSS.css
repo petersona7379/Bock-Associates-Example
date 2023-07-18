@@ -33,7 +33,7 @@ overflow: hidden;
     flex-grow: 2;
     border: solid 1px black;
 }
-
+/*
 .container{
     display: grid;
     align-items: right;
@@ -50,6 +50,7 @@ img{
 .company-text{
     font-size: 20px;
 }
+*/
 
 table{
     table-layout: fixed;
