@@ -17,7 +17,7 @@ header *{
 }
 
 header ul{
-    padding: 0px;
+    padding: 20px;
 }
 
 header li{
@@ -41,17 +41,19 @@ footer{
     background-color: #d3d3d3;
     margin: 0;
     color: black;
-    text-align: center;
+    text-align: right;
 }
 
 #states{
     background-color: #800000;
     margin: 0;
+    text-align: center;
 }
 
 #resources{
     background-color: #d3d3d3;
     margin: 0;
+    text-align: center;
 }
 
 /* navigation bar */
