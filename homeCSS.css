@@ -38,7 +38,7 @@ overflow: hidden;
     display: grid;
     align-items: right;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    column-gap: 25px;
 }
 
 img{
@@ -47,7 +47,7 @@ img{
 }
 
 .company-text{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 table{
