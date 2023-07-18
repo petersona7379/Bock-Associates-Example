@@ -1,0 +1,85 @@
+/* navigation bar */
+.navigation, #navbar{
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+} 
+
+/* links in navigation bar */
+li{
+    margin: 2px;
+    padding: 2px;
+    /*display: flex;*/
+}
+
+/* subnavigation in the navigation bar */
+.subnavigation{
+float: left;
+overflow: hidden;
+}
+
+/* Big box of the states */
+#Big1{
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    border: solid 1px black;
+}
+
+/* State Boxes */
+#Box2,#Box3,#Box4{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 2;
+    border: solid 1px black;
+}
+
+/* Slideshow container */
+.slideshow-container{
+    max-width: 500px;
+    position:relative;
+    margin:auto;
+}
+
+/* makes the images avaliable when page is loaded */
+.mySlides{
+    display: table-cell;
+    float: right;
+}
+
+/* Next and Previous Buttons */
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the 'next button' to the right */
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black bachground color with a little bit see-through */
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity:1}
+}

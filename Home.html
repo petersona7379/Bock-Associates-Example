@@ -2,34 +2,7 @@
 <html>
     <head>
         <title>Bock Associates</title>
-        <style>
-          .navigation, #navbar{
-                margin: 3px;
-                padding: 3px;
-                display: flex;
-           } 
-           li{
-                margin: 2px;
-                padding: 2px;
-                /*display: flex;*/
-           }
-           .subnavigation{
-            float: left;
-            overflow: hidden;
-           }
-            #Big1{
-                padding: 10px;
-                display: flex;
-                flex-direction:row;
-                border: solid 1px black;
-            }
-            #Box2,#Box3,#Box4{
-                padding: 10px;
-                text-align: center;
-                flex-grow: 2;
-                border: solid 1px black;
-            }
-        </style>
+        <link rel="stylesheet" href="homeCSS.css">
     </head>
     <body>
         <header>
@@ -50,21 +23,48 @@
         <main>
             <section id="about us">
                 <h2>About Bock Associates</h2>
-                <p>Bock Assocaites was founded by Dr.Warren H. Bock. Bock Associates is an experienced 
-                    national firm that specializes in mental health assessment services tailored to the 
-                    needs of state human service programs. Since 1975, our professional staff have
-                    blended management, policy, clinical, and technical expertise with the resources of 
-                    out clients to deliver clinically sound, comprehensive, and cost-efficient programs 
-                    and services in over 20 states. Bock Associates has successfully assisted federal, 
-                    state and local government agencies, as well as private organization, with a multitude
-                    of issues, including:
-                </p>
-                <ul>
-                    <li>Managing Pre-Admission Screening and Resident Review (PASRR) and other assessment programs</li>
-                    <li>Designing unique sets of assessment protocols and data entry forms</li>
-                    <li>Creating computerized tracking systems to collect and analyze data</li>
-                    <li>Performing regulatory compliance evaluations</li>
-                </ul>
+                <table>
+                    <tr>
+                        <td> 
+                            <!--Short Company History-->
+                            <p>Bock Assocaites was founded by Dr.Warren H. Bock. Bock Associates is an experienced 
+                            national firm that specializes in mental health assessment services tailored to the 
+                            needs of state human service programs. Since 1975, our professional staff have
+                            blended management, policy, clinical, and technical expertise with the resources of 
+                            out clients to deliver clinically sound, comprehensive, and cost-efficient programs 
+                            and services in over 20 states. Bock Associates has successfully assisted federal, 
+                            state and local government agencies, as well as private organization, with a multitude
+                            of issues, including:
+                            </p>
+                            <ul>
+                                <li>Managing Pre-Admission Screening and Resident Review (PASRR) and other assessment programs</li>
+                                <li>Designing unique sets of assessment protocols and data entry forms</li>
+                                <li>Creating computerized tracking systems to collect and analyze data</li>
+                                <li>Performing regulatory compliance evaluations</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <!--Slideshow container-->
+                            <div class="slideshow-container">
+                                <!--slideshow of images-->
+                                <div class="mySlides fade">
+                                    <img src="dog1.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="dog2.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="dog3.jpg" style="width:100%">
+                                </div>
+                                <!--Next and Previour Buttons-->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </section>
             <section id="states">
                 <h2> States </h2>
