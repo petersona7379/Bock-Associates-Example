@@ -2,6 +2,7 @@
     overflow: hidden;
     background-color: gray;
     font-family: monospace;
+    margin: 10px;
 }
 
 .navbar a{
