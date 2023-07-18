@@ -36,7 +36,7 @@ overflow: hidden;
 
 .container{
     display: grid;
-    align-items: center;
+    align-items: right;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
