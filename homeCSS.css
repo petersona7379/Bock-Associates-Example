@@ -150,3 +150,7 @@ table{
 td{
     width: 45%;
 }
+
+header{
+    margin: 0;
+}
