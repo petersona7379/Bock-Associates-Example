@@ -2,7 +2,6 @@
     overflow: hidden;
     background-color: #4c4c5c;
     width: 9999px;
-    margin: 0;
 }
   
 .navbar a {
@@ -63,7 +62,7 @@
 
 body{
     font-family: monospace;
-    margin-top: 0px;
+    margin: 0px;
     background-color: lightgray;
 }
 
