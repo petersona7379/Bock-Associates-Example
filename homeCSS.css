@@ -54,8 +54,7 @@ img{
 #dog-pic{
     width: 500px; 
     height: 333px;
-    align-items: center;
-    display: flex;
+    align-content: normal;
 }
 
 table{
