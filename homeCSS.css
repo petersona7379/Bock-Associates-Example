@@ -34,6 +34,10 @@ overflow: hidden;
     border: solid 1px black;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* Slideshow container */
 .slideshow-container{
     max-width: 500px;
@@ -80,7 +84,7 @@ overflow: hidden;
 }
 
 @keyframes fade{
-    from {opacity: .4}
+    from {opacity: .5}
     to {opacity:1}
 }
 
