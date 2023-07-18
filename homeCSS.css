@@ -73,7 +73,7 @@ footer{
 }
 
 #about-us{
-    background-color: #d3d3d3;
+    background-color: azure;
     margin: 0;
     color: black;
     text-align: left;
@@ -84,13 +84,13 @@ h2{
 }
 
 #states{
-    background-color: #800000;
+    background-color:azure;
     margin: 0;
     text-align: center;
 }
 
 #resources{
-    background-color: #d3d3d3;
+    background-color: azure;
     margin: 0;
     text-align: center;
 }
