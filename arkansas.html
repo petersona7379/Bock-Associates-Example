@@ -2,36 +2,24 @@
 <html>
     <head>
         <title>Bock Associates of Arkansas</title>
-        <style>
-            .navigation,#navbar{
-                 list-style-type:none;
-                 margin: 5px;
-                 padding: 5px;
-                 display: flex;
-            } 
-            li{
-                
-                 margin: 5px;
-                 padding: 5px;
-                 
-            }
-         </style>
+        <link rel="stylesheet" href="stateCSS.css">
     </head>
     <body>
         <header>
-            <nav>
-                <ul class="navigation">
-                    <li id="navbar"><a href="home.html">Home</a></li>
-                    <li id="navbar"><a href="aboutus.html">About Us</a></li>
-                    <li id="navbar">Locations
-                        <ul class="subnavigation">
-                            <li id="navbar"><a href="alabama.html">Alabama</a></li>
-                            <li id="navbar"><a href="arkansas.html">Arkansas</a></li>
-                            <li id="navbar"><a href="missouri.html">Missouri</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+            <div class="navbar">
+                <a href="home.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <div class="dropdown">
+                     <button class="dropbtn">Locations
+                         <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="alabama.html">Alabama</a>
+                        <a href="arkansas.html">Arkansas</a>
+                        <a href="missouri.html">Missouri</a>
+                    </div>
+                </div>
+            </div>
         </header>
         <main>
 
